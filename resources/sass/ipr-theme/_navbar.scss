@@ -1,0 +1,15 @@
+.ipr-navbar{
+    background-color: #fff;
+    border-bottom: 2px solid $primary;
+    @media only screen and (max-width: 600px) {
+        form{
+            &.form-inline{
+                text-align: center;
+                margin-top: 18px;
+                .btn{
+                    display: none;
+                }
+            }
+        }
+    }
+}
